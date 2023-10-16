@@ -37,7 +37,6 @@ int main(int argc, char *argv[])
 			}
 			printf("----------------------\n");
 			
-			//koþullar
 			{
 				if(
 	 			   arr[0][0]==arr[0][1]&&arr[0][1]==arr[0][2]||
@@ -83,7 +82,7 @@ int main(int argc, char *argv[])
 			
 			while(x)
 			{
-			    printf(" lokasyon secin:");
+			    printf(" Select Location:");
 				scanf("%d",&loc);
 				
 				for(i=0;i<3;++i)
@@ -104,7 +103,7 @@ int main(int argc, char *argv[])
 				
 				
 	            if(x==1)
-				printf("hata tekrar ");
+				printf(" This place is not empty \n");
 				else	
 				system("CLS");
 			}
